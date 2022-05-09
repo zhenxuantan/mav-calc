@@ -1,0 +1,37 @@
+.square {
+  background-color: black;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.white {
+  background-color: white;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 3px;
+  margin: 5px 0px;
+}
+
+.orange {
+  background-color: #f68f39;
+  text-align: center;
+  font-weight: 600;
+  border-radius: 3px;
+  margin: 5px 15px;
+}
+
+.display {
+  background-color: white;
+  font-weight: 600;
+  font-size: 2rem;
+  text-align: right;
+  border-radius: 5px;
+  padding: 0px 5px;
+  margin: 10px 0px;
+}
+
+.wrapper {
+  margin-top: 200px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
