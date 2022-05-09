@@ -60,7 +60,7 @@ function append(num) {
       break;
     case 2:
       disp = 0;
-      first = 0;
+      first = num;
       break;
     default:
       break;
@@ -69,15 +69,22 @@ function append(num) {
 }
 
 function op(operation) {
-  dec = false;
-  decDivide = 10;
-  oper = operation;
-  if (firstneg) {
-    first = first * -1;
+  if (disp == 1) {
+    equal();
+    disp = 0;
+    display();
+    second = 0;
+    disp = 1;
+  } else {
+    dec = false;
+    decDivide = 10;
+    oper = operation;
+    if (firstneg) {
+      first = first * -1;
+    }
+    second = 0;
+    disp = 1;
   }
-  second = 0;
-  disp = 1;
-  display();
 }
 
 function dot() {
